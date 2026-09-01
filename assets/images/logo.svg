@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Primary Blue Background Gradient -->
+    <linearGradient id="logoBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#009DF8"/>
+      <stop offset="100%" stop-color="#0077C8"/>
+    </linearGradient>
+
+    <!-- Flamingo Pink Gradient -->
+    <linearGradient id="logoFlamingo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#E6396E"/>
+    </linearGradient>
+
+    <!-- Beak Yellow Gradient -->
+    <linearGradient id="logoYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFA000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 3D Squircle Base Container in Primary Blue -->
+  <rect x="6" y="6" width="108" height="108" rx="28" fill="#006CB3"/>
+  <rect x="6" y="6" width="108" height="102" rx="28" fill="url(#logoBg)"/>
+
+  <!-- Flamingo Mascot Head inside Logo -->
+  <g transform="translate(10, 10)">
+    <!-- Flamingo Head & Neck Base -->
+    <path d="M 40 85 C 32 60, 48 45, 52 35 C 65 35, 78 46, 75 62 C 72 74, 58 85, 40 85 Z" fill="url(#logoFlamingo)"/>
+
+    <!-- Large Friendly Eye -->
+    <circle cx="58" cy="50" r="10" fill="#FFFFFF"/>
+    <circle cx="60" cy="50" r="7" fill="#3C3C3C"/>
+    <circle cx="62" cy="48" r="3" fill="#FFFFFF"/>
+
+    <!-- Curved Flamingo Beak -->
+    <!-- Yellow Base -->
+    <path d="M 68 53 Q 86 53 86 64 Q 78 76 64 65 Z" fill="url(#logoYellow)"/>
+    <!-- Black Curved Tip -->
+    <path d="M 77 58 Q 88 60 86 72 Q 80 74 74 67 Z" fill="#3C3C3C"/>
+
+    <!-- Cute Pink Cheek -->
+    <ellipse cx="48" cy="62" rx="5" ry="3.5" fill="#FF85AD"/>
+
+    <!-- Wayuu Traditional Hat (Katsu) on Flamingo -->
+    <g id="miniKatsu">
+      <!-- Hat Rim -->
+      <path d="M 28 36 Q 52 46 76 36 C 80 33, 76 26, 68 26 Q 52 34, 36 26 C 28 26, 24 33, 28 36 Z" fill="#FFC800"/>
+      <!-- Hat Crown -->
+      <path d="M 38 26 C 38 8, 66 8, 66 26 Z" fill="#FFFFFF" stroke="#FFC800" stroke-width="3"/>
+      <!-- Woven Geometric Band -->
+      <path d="M 38 24 L 66 24" stroke="#009DF8" stroke-width="4.5" stroke-dasharray="4.5 3"/>
+      <!-- Pom-Pom Tassel -->
+      <circle cx="70" cy="27" r="5" fill="#FF4B4B"/>
+      <circle cx="72" cy="32" r="4" fill="#CE82FF"/>
+    </g>
+  </g>
+</svg>

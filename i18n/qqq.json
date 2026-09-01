@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Daniel Yepez Garces"
+        ],
+        "locale": "qqq",
+        "message-documentation": "qqq"
+    },
+    "wayuuglish-meta-title": "Page meta title tag for SEO and browser tab",
+    "wayuuglish-meta-desc": "Meta description tag for social preview and search engines",
+    "wayuuglish-badge-coming-soon": "Header coming soon release status badge",
+    "wayuuglish-hero-tag": "Hero sub-tag above main display title",
+    "wayuuglish-hero-title": "Main hero headline",
+    "wayuuglish-hero-subtitle": "Hero explanatory paragraph",
+    "wayuuglish-btn-try-lesson": "Call to action button to scroll to interactive preview",
+    "wayuuglish-btn-learn-more": "Call to action button to scroll to features section",
+    "wayuuglish-badge-streak": "Mascot floating badge showing daily streak count",
+    "wayuuglish-badge-audio": "Mascot floating badge indicating Wayuunaiki native audio",
+    "wayuuglish-playstore-title": "Top label of Google Play Store button",
+    "wayuuglish-playstore-sub": "Brand name Google Play",
+    "wayuuglish-playstore-soon": "Pill badge on Google Play button indicating coming soon",
+    "wayuuglish-app-banner-tag": "Category tag for mobile app banner",
+    "wayuuglish-app-banner-title": "Heading of mobile app banner",
+    "wayuuglish-app-banner-desc": "Description of Android offline features",
+    "wayuuglish-why-title": "Section title for Why Wayuuglish",
+    "wayuuglish-why-subtitle": "Section subtitle for Why Wayuuglish",
+    "wayuuglish-team-title": "Section title for Meet the Team",
+    "wayuuglish-team-subtitle": "Section subtitle for Meet the Team",
+    "wayuuglish-team-role-dev": "Job role title for Daniel Yepez Garces",
+    "wayuuglish-team-bio-dev": "Bio summary for Daniel Yepez Garces",
+    "wayuuglish-team-role-pm": "Job role title for Yanilis Romero",
+    "wayuuglish-team-bio-pm": "Bio summary for Yanilis Romero",
+    "wayuuglish-faq-title": "FAQ section title",
+    "wayuuglish-faq-subtitle": "FAQ section subtitle",
+    "wayuuglish-footer-mission": "Brief mission statement in footer",
+    "wayuuglish-rights": "Copyright rights notice"
+}

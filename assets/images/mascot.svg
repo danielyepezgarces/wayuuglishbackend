@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="100%" height="100%">
+  <defs>
+    <!-- Flamingo Pink Gradient -->
+    <linearGradient id="flamingoPink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#E6396E"/>
+    </linearGradient>
+
+    <!-- Wing Accent Gradient -->
+    <linearGradient id="wingPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF85AD"/>
+      <stop offset="100%" stop-color="#D81B60"/>
+    </linearGradient>
+
+    <!-- Beak Yellow Gradient -->
+    <linearGradient id="beakYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFA000"/>
+    </linearGradient>
+
+    <!-- Soft Drop Shadow Filter -->
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="200" cy="390" rx="100" ry="14" fill="#E5E5E5" />
+
+  <!-- Flamingo Body Group -->
+  <g filter="url(#softShadow)">
+    
+    <!-- Long Flamingo Legs (Yellow/Orange) -->
+    <!-- Standing Leg -->
+    <path d="M 190 280 L 190 385 M 180 385 L 200 385" stroke="#FFA000" stroke-width="8" stroke-linecap="round"/>
+    <!-- Cute Bent Leg (Classic Flamingo Pose) -->
+    <path d="M 210 280 L 235 320 L 210 345" stroke="#FFA000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Rounded Body -->
+    <path d="M 140 240 C 120 180, 260 170, 260 240 C 260 290, 220 310, 180 300 C 150 290, 140 270, 140 240 Z" fill="url(#flamingoPink)"/>
+
+    <!-- Fluffy Tail Feathers -->
+    <path d="M 250 220 C 280 210, 285 240, 265 255 C 275 260, 260 275, 245 260 Z" fill="#D81B60"/>
+
+    <!-- Wing (Pill Curved Shape) -->
+    <path d="M 160 220 C 180 200, 230 210, 230 250 C 230 280, 190 280, 160 240 Z" fill="url(#wingPink)" stroke="#FFFFFF" stroke-width="3"/>
+    
+    <!-- Wayuu Geometric Pattern on Wing -->
+    <path d="M 185 235 L 195 220 L 205 235 L 195 250 Z" fill="#FFD54F"/>
+    <path d="M 190 235 L 195 228 L 200 235 L 195 242 Z" fill="#009DF8"/>
+
+    <!-- Curved Graceful Neck -->
+    <path d="M 165 240 C 150 160, 210 130, 200 85" stroke="url(#flamingoPink)" stroke-width="36" stroke-linecap="round" fill="none"/>
+
+    <!-- Flamingo Head -->
+    <circle cx="200" cy="85" r="32" fill="url(#flamingoPink)"/>
+
+    <!-- Large Friendly Eye -->
+    <circle cx="212" cy="78" r="16" fill="#FFFFFF"/>
+    <circle cx="215" cy="78" r="12" fill="#3C3C3C"/>
+    <circle cx="219" cy="74" r="5" fill="#FFFFFF"/>
+
+    <!-- Cute Pink Cheek -->
+    <ellipse cx="195" cy="94" rx="8" ry="5" fill="#FF85AD"/>
+
+    <!-- Iconic Curved Flamingo Beak -->
+    <!-- Beak Base (Yellow) -->
+    <path d="M 220 85 Q 248 85 248 100 Q 235 118 215 102 Z" fill="url(#beakYellow)"/>
+    <!-- Beak Tip (Black Curve) -->
+    <path d="M 235 92 Q 252 95 248 112 Q 240 115 232 105 Z" fill="#3C3C3C"/>
+
+    <!-- Wayuu Traditional Woven Hat (Katsu) on Flamingo Head -->
+    <g id="wayuuKatsuHat">
+      <!-- Hat Rim -->
+      <path d="M 155 68 Q 200 82 245 68 C 252 64, 245 52, 230 52 Q 200 64, 170 52 C 155 52, 148 64, 155 68 Z" fill="#FFC800"/>
+      <!-- Hat Crown -->
+      <path d="M 172 52 C 172 18, 228 18, 228 52 Z" fill="#FFFFFF" stroke="#FFC800" stroke-width="4"/>
+      <!-- Geometric Woven Band (Wayuu Kanaas Pattern) -->
+      <path d="M 172 48 L 228 48" stroke="#009DF8" stroke-width="8" stroke-dasharray="8 5"/>
+      <!-- Colorful Pom-Pom Tassel -->
+      <circle cx="236" cy="54" r="9" fill="#FF4B4B"/>
+      <circle cx="239" cy="62" r="7" fill="#CE82FF"/>
+    </g>
+
+  </g>
+</svg>
